@@ -1,6 +1,8 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
-import 'my.dart';
-import 'baza.dart';
+import 'package:sualcavab/my.dart';
+import 'package:sualcavab/baza.dart';
 
 bool themeStatus = true;
 SualVeCavablar svc = SualVeCavablar();
@@ -8,7 +10,7 @@ myIcon mc = myIcon();
 Tools t = Tools();
 int verilenSual = t.yeniSual();
 List<Widget> emr = [];
-int sualSayi = svc.length();
+int sualSayi = svc.length() - 1;
 
 void main() {
   runApp(const MyApp());
@@ -54,7 +56,7 @@ class _appBodyState extends State<appBody> {
             child: Center(
               child: Text(
                 textAlign: TextAlign.center,
-                svc.suallar[verilenSual].sual,
+                svc.getSual(verilenSual),
                 style: const TextStyle(fontSize: 30, fontFamily: 'yazi'),
               ),
             ),
@@ -119,10 +121,10 @@ class _appBodyState extends State<appBody> {
 // ignore: non_constant_identifier_names
 void ControlQuestion(int idx, int status) {
   status == 0
-      ? !svc.suallar[idx].cavab
+      ? !svc.getCavab(idx)
           ? emr.add(mc.dogruIcon)
           : emr.add(mc.yanlisIcon)
-      : svc.suallar[idx].cavab
+      : svc.getCavab(idx)
           ? emr.add(mc.dogruIcon)
           : emr.add(mc.yanlisIcon);
 }

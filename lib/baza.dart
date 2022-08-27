@@ -1,7 +1,7 @@
-import 'my.dart';
+import 'package:sualcavab/my.dart';
 
 class SualVeCavablar {
-  List<Sual> suallar = [
+  final List<Sual> _suallar = [
     Sual(cavab: false, sual: "Dağlıq Qarabağ müharibəsi 55 gün davam etdi?"),
     Sual(
       cavab: true,
@@ -89,6 +89,14 @@ class SualVeCavablar {
     ),
   ];
   int length() {
-    return suallar.length;
+    return _suallar.length;
+  }
+
+  String getSual(sualIndex) {
+    return _suallar[sualIndex].sual;
+  }
+
+  bool getCavab(cavabIndex) {
+    return _suallar[cavabIndex].cavab;
   }
 }

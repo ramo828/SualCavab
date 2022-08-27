@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 import 'baza.dart';
 
+// ignore: camel_case_types
 class myIcon {
   Icon dogruIcon = const Icon(Icons.mood_rounded, color: Colors.green);
   Icon yanlisIcon = const Icon(Icons.mood_bad_rounded, color: Colors.red);
@@ -23,8 +24,9 @@ class Tools {
   SualVeCavablar svc = SualVeCavablar();
   int counter = 0;
   int yeniSual() {
-    int qid = Random().nextInt(svc.length());
+    int qid = Random().nextInt(svc.length() - 1);
     counter++;
+    // ignore: avoid_print
     if (counter == svc.length()) print("son");
     if (!verilenSonSualID.contains(qid)) {
       verilenSonSualID.add(qid);
