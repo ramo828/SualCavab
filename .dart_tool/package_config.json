@@ -8,50 +8,14 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "audioplayers",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/audioplayers-1.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "audioplayers_android",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/audioplayers_android-1.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "audioplayers_darwin",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/audioplayers_darwin-1.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "audioplayers_linux",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/audioplayers_linux-1.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "audioplayers_platform_interface",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/audioplayers_platform_interface-1.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "audioplayers_web",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/audioplayers_web-1.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "audioplayers_windows",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/audioplayers_windows-1.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
       "name": "boolean_selector",
       "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "change_app_package_name",
+      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/change_app_package_name-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -80,12 +44,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "crypto",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
       "name": "cupertino_icons",
       "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.5",
       "packageUri": "lib/",
@@ -94,18 +52,6 @@
     {
       "name": "fake_async",
       "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/fake_async-1.3.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "ffi",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/ffi-2.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "file",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/file-6.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -126,30 +72,6 @@
       "rootUri": "file:///opt/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "2.17"
-    },
-    {
-      "name": "flutter_web_plugins",
-      "rootUri": "file:///opt/flutter/packages/flutter_web_plugins",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "http",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/http-0.13.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "http_parser",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "js",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/js-0.6.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.16"
     },
     {
       "name": "lints",
@@ -180,66 +102,6 @@
       "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/path-1.8.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/path_provider-2.0.11",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "path_provider_android",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.20",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "path_provider_ios",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/path_provider_ios-2.0.11",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
-    },
-    {
-      "name": "path_provider_linux",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-2.1.7",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider_macos",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider_platform_interface",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/path_provider_platform_interface-2.0.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "path_provider_windows",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-2.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "platform",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/platform-3.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "plugin_platform_interface",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "process",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/process-4.2.4",
-      "packageUri": "lib/",
-      "languageVersion": "2.14"
     },
     {
       "name": "sky_engine",
@@ -284,43 +146,19 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "typed_data",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "uuid",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/uuid-3.0.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "vector_math",
       "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
-      "name": "win32",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/win32-2.7.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "xdg_directories",
-      "rootUri": "file:///home/ramo828/.pub-cache/hosted/pub.dartlang.org/xdg_directories-0.2.0+2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "SualCavab",
+      "name": "sualcavab",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-08-27T12:37:42.333227Z",
+  "generated": "2022-08-27T14:30:35.283756Z",
   "generator": "pub",
   "generatorVersion": "2.17.6"
 }
