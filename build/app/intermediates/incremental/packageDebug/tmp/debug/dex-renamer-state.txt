@@ -1,0 +1,4 @@
+#Sat Aug 27 01:38:36 AZT 2022
+base.0=/home/ramo828/Belgeler/ses/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
